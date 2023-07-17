@@ -1,0 +1,53 @@
+{
+    "dev": [
+        "https://icongr.am/devicon/angularjs-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/c-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/csharp-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/docker-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/typescript-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/mongodb-original-wordmark.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/php-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/python-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/react-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/vuejs-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/java-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/ruby-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/postgresql-original.svg?size=128&color=currentColor",
+        "https://icongr.am/devicon/nodejs-original.svg?size=128&color=currentColor"
+    ],
+    "flags": [
+        "https://cdn.countryflags.com/thumbs/argentina/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/brazil/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/spain/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/uruguay/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/italy/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/france/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/england/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/germany/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/mexico/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/portugal/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/netherlands/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/japan/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/sweden/flag-square-250.png",
+        "https://cdn.countryflags.com/thumbs/denmark/flag-square-250.png"
+    ],
+    "badges": [
+        "https://www.ligafutbol.net/wp-content/2009/04/boca-juniors.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/bayern-munich.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/manchester-united.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/liverpool.jpg",
+        "https://www.ligafutbol.net/wp-content/2009/04/borussia_dortmund.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/ac-milan.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/juventus.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/intermilan.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/escudo-barcelona.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/escudo-madrid.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/escudo-atletico-de-madrid.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/river-plate.jpg",
+        "https://www.ligafutbol.net/wp-content/2009/04/chelsea.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/arsenal.png",
+        "https://www.ligafutbol.net/wp-content/2009/04/benfica.png"
+    ]
+}

@@ -1,0 +1,157 @@
+*{
+  box-sizing: border-box;
+ 
+}
+
+
+body{
+  margin: auto;
+  padding: 0;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-photo/pride-lgbt-society-day-coloured-pieces-paper_23-2148516308.jpg");
+  max-width: 1000px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#root {
+  width: 100%;
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000
+  
+}
+
+.container-game{
+  width: 100%;
+  padding: 15px;
+}
+
+.container-game{
+  height: 100%;
+  
+}
+.board-game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restart-game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0;
+  color: #ffffff;
+  background-color: #000000  ;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  margin: 50px 0px;
+}
+
+h3{
+  font-size: 25px;
+  margin-top: 20px;
+ color: #fff;
+  margin-bottom: 5px;
+
+}
+button{
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ffc340;
+  width: 200px;
+}
+
+button:hover{
+  background-color: #454546;
+  color: #fff;
+}
+
+.choose-buttons-container{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  
+}
+
+.restart-game{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  gap: 12px;
+  padding: 15px;
+  background-color: #00000080 ;
+  
+  border-radius: 20px;
+
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  border: 1px solid #666;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+li:hover{
+  border: 1px solid #eef999;
+}
+
+.selected {
+  border: 2px solid #0b6f28;
+}
+
+.guessed {
+  border: 1px solid #fff;
+}
+
+img{
+  max-width: 128px;
+  height: 128px;
+  border-radius: 10px;
+}
+
+.win-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
