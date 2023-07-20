@@ -72,7 +72,6 @@ function App() {
     }
   }, [guessed])
 
-  console.log(guessed.length)
 
   return (
     <div className={`container ${theme}`}>
