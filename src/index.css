@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
- 
+
 }
 
 
@@ -13,6 +13,9 @@ body{
   display: flex;
   align-items: center;
   margin: auto;
+  transform: scale(0.8);
+  transform-origin: top;
+  
 }
 
 #root {
@@ -32,12 +35,11 @@ body{
 .container-game{
   width: 100%;
   padding: 15px;
+  height: 100%;
+
 }
 
-.container-game{
-  height: 100%;
-  
-}
+
 .board-game{
   display: flex;
   justify-content: center;

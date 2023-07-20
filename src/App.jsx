@@ -53,7 +53,7 @@ function App() {
         } else {
           setTimeout(() => {
             setSelected([]);
-          }, 1000);
+          }, 700);
         }
       }
       return newSelected;
