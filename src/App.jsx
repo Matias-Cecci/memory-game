@@ -67,10 +67,11 @@ function App() {
   }, [selected]);
 
   useEffect(() => {
-    if (guessed.length !== 0 && guessed.length / 2 === cards.length) {
+    if (guessed.length !== 0 && (guessed.length / 2) === cards.length) {
       setIsWinner(true)
     }
   }, [guessed])
+
 
 
   return (
