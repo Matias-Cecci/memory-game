@@ -95,7 +95,7 @@ function App() {
               <h3>Moves: {moves}</h3>
             </div>
             <ul>
-              { cards?.map((card) => {
+              {cards?.map((card) => {
                 const isSelected = selected.includes(card.id);
                 const isGuessed = guessed.includes(card.id);
                 return (
