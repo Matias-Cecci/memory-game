@@ -28,6 +28,7 @@ function App() {
     setTheme()
     restartGame()
     setCardBackUrl('')
+    setIsWinner(false)
   }
 
   const cardSelect = (cardId) => {
@@ -70,6 +71,8 @@ function App() {
       setIsWinner(true)
     }
   }, [guessed])
+
+  console.log(guessed.length)
 
   return (
     <div className={`container ${theme}`}>
