@@ -72,7 +72,8 @@ function App() {
     }
   }, [guessed])
 
-
+  console.log(guessed.length)
+  console.log(cards.length)
 
   return (
     <div className={`container ${theme}`}>
