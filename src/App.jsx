@@ -72,12 +72,13 @@ function App() {
     }
   }, [guessed])
 
-  console.log(guessed.length)
-  console.log(cards.length)
-
+ const winnerFAC = ()=> {
+  setIsWinner(true)
+ }
   return (
     <div className={`container ${theme}`}>
       <h1>Memory Game</h1>
+      <button onClick={winnerFAC}>Set winner</button>
       <div className='container-game'>
         {isWinner && (
           <div className="win-container">
