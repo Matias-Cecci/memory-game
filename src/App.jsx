@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { backgroundImages, cardsBackImages } from './assets/images.js'
 import { useGetDeck } from './hooks/useGetDeck'
+import Confetti from 'react-confetti';
+
 import { useCardTheme } from './hooks/useCardTheme'
 import { WinnerCelebration } from './components/WinnerCelebration.jsx'
 import { Menu } from './components/Menu'
@@ -72,25 +74,27 @@ function App() {
     }
   }, [guessed])
 
- const winnerFAC = ()=> {
-  setIsWinner(true)
- }
+
   return (
     <div className={`container ${theme}`}>
       <h1>Memory Game</h1>
-      <button onClick={winnerFAC}>Set winner</button>
       <div className='container-game'>
         {isWinner && (
-          <div className="win-container">
-            <h2>YOU WIN!</h2>
-            <h3>Moves: {moves}</h3>
-            <div className="restart-game">
-              <button onClick={restartGame}> Restart Game </button>
-              <button onClick={goBack}> Go Back </button>
+          <>
+            <div className="confetti-container">
+              <Confetti />
             </div>
-          </div>
+
+            <div className="win-container">
+              <h2>YOU WIN!</h2>
+              <h3>Moves: {moves}</h3>
+              <div className="restart-game">
+                <button onClick={restartGame}> Restart Game </button>
+                <button onClick={goBack}> Go Back </button>
+              </div>
+            </div>
+          </>
         )}
-        <WinnerCelebration isWinner={isWinner} />
         {!isWinner && theme ? (
           <>
             <div className='board-game'>
