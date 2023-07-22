@@ -4,7 +4,6 @@ import { useGetDeck } from './hooks/useGetDeck'
 import Confetti from 'react-confetti';
 
 import { useCardTheme } from './hooks/useCardTheme'
-import { WinnerCelebration } from './components/WinnerCelebration.jsx'
 import { Menu } from './components/Menu'
 import './index.css'
 
@@ -76,7 +75,7 @@ function App() {
 
 
   return (
-    <div className={`container ${theme}`}>
+    <div className={theme ? `container ${theme}` : `container`}>
       <h1>Memory Game</h1>
       <div className='container-game'>
         {isWinner && (

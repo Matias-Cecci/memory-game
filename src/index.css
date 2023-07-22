@@ -1,10 +1,10 @@
-*{
+* {
   box-sizing: border-box;
 
 }
 
 
-body{
+body {
   margin: auto;
   padding: 0;
   background-size: cover;
@@ -15,24 +15,23 @@ body{
   margin: auto;
   transform: scale(0.8);
   transform-origin: top;
-  
+
 }
 
 #root {
   width: 100%;
-  
+
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #000
-  
 }
 
-.container-game{
+.container-game {
   width: 100%;
   padding: 15px;
   height: 100%;
@@ -40,24 +39,24 @@ body{
 }
 
 
-.board-game{
+.board-game {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.restart-game{
+.restart-game {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-h1{
+h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 0;
   color: #ffffff;
-  background-color: #000000  ;
+  background-color: #000000;
   padding: 10px;
   border-radius: 15px;
 }
@@ -69,14 +68,15 @@ h2 {
   margin: 40px 0px;
 }
 
-h3{
+h3 {
   font-size: 25px;
   margin-top: 20px;
- color: #fff;
+  color: #fff;
   margin-bottom: 5px;
 
 }
-button{
+
+button {
   padding: 20px;
   border-radius: 10px;
   font-size: 20px;
@@ -85,39 +85,39 @@ button{
   width: 200px;
 }
 
-button:hover{
+button:hover {
   background-color: #454546;
   color: #fff;
 }
 
-.choose-buttons-container{ 
+.choose-buttons-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   gap: 15px;
-  
+
 }
 
-.restart-game{
+.restart-game {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 5px;
 }
 
-ul{
+ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
   gap: 12px;
   padding: 15px;
-  background-color: #00000080 ;
-  
+  background-color: #00000080;
+
   border-radius: 20px;
 
 }
 
-li{
+li {
   list-style: none;
   cursor: pointer;
   border: 1px solid #666;
@@ -126,10 +126,10 @@ li{
   justify-content: center;
   align-items: center;
 
-  
+
 }
 
-li:hover{
+li:hover {
   border: 1px solid #eef999;
 }
 
@@ -141,13 +141,13 @@ li:hover{
   border: 1px solid #fff;
 }
 
-img{
+img {
   max-width: 128px;
   height: 128px;
   border-radius: 10px;
 }
 
-.win-container{
+.win-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,7 +156,18 @@ img{
 
 
 
-.h2-menu{
-  color: #000000;
+.h2-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 400px;
+  background-color: #000000;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 40px;
 }
-
